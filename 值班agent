@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="agentseq" name="值班Agent-代码优先时序图">
+    <mxGraphModel dx="974" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1750" pageHeight="1280" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-76" parent="1" style="rounded=1;arcSize=12;html=1;fillColor=#EDF4FE;fillOpacity=28;strokeColor=#A8C8F1;strokeWidth=1.5;dashed=1;dashPattern=8 5;" value="" vertex="1">
+          <mxGeometry height="155" width="1510" x="1178.9012345679012" y="530.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-77" parent="1" style="rounded=1;arcSize=12;html=1;fillColor=#FFFAEA;fillOpacity=28;strokeColor=#E8CAA0;strokeWidth=1.5;dashed=1;dashPattern=8 5;" value="" vertex="1">
+          <mxGeometry height="257" width="1510" x="1178.9012345679012" y="692.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-78" parent="1" style="rounded=1;arcSize=12;html=1;fillColor=#F0F8ED;fillOpacity=28;strokeColor=#ADD2AA;strokeWidth=1.5;dashed=1;dashPattern=8 5;" value="" vertex="1">
+          <mxGeometry height="207" width="1510" x="1178.9012345679012" y="955.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-79" parent="1" style="rounded=1;arcSize=12;html=1;fillColor=#FFF3F1;fillOpacity=28;strokeColor=#E9B6B4;strokeWidth=1.5;dashed=1;dashPattern=8 5;" value="" vertex="1">
+          <mxGeometry height="272" width="1510" x="1178.9012345679012" y="1168.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-80" parent="1" style="rounded=1;arcSize=12;html=1;fillColor=#EFF5FD;fillOpacity=28;strokeColor=#A8C8F1;strokeWidth=1.5;dashed=1;dashPattern=8 5;" value="" vertex="1">
+          <mxGeometry height="136" width="1510" x="1178.9012345679012" y="1447.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-81" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=26;fontStyle=1;fontColor=#17233D;" value="在线治理值班 Agent — 代码优先的分析时序图" vertex="1">
+          <mxGeometry height="50" width="1040" x="1363.9012345679012" y="376.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-82" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#F1F3F5;strokeColor=#A9ADB5;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="用户 / 值班同学" vertex="1">
+          <mxGeometry height="56" width="216" x="1055.9012345679012" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-83" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1163.9012345679012" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="1163.9012345679012" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-84" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#DCE9FC;strokeColor=#84A9E6;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="值班 Agent" vertex="1">
+          <mxGeometry height="56" width="216" x="1320.9012345679012" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-85" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-86" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FFF1CF;strokeColor=#DDB65C;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="代码" vertex="1">
+          <mxGeometry height="56" width="216" x="1605.9012345679012" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-87" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1713.9012345679012" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="1713.9012345679012" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-88" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#DDF0D9;strokeColor=#8ABE89;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="在线治理知识库" vertex="1">
+          <mxGeometry height="56" width="216" x="1890.9012345679012" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-89" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1998.9012345679012" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="1998.9012345679012" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-90" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FDE7CD;strokeColor=#EDB46C;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="Apollo 配置" vertex="1">
+          <mxGeometry height="56" width="216" x="2175.901234567901" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-91" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2283.901234567901" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="2283.901234567901" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-92" parent="1" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FADFE3;strokeColor=#E6A0A9;strokeWidth=1.6;fontSize=16;fontStyle=1;fontColor=#243044;align=center;verticalAlign=middle;" value="日志 / 数据" vertex="1">
+          <mxGeometry height="56" width="216" x="2465.901234567901" y="455.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-93" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#8A93A2;strokeWidth=1.7;endArrow=none;endFill=1;fontSize=12;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2573.901234567901" y="514.5679012345679" as="sourcePoint" />
+            <mxPoint x="2573.901234567901" y="1576.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-94" parent="1" style="rounded=1;arcSize=10;fillColor=#EDF4FE;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#25405F;align=center;" value="① 提问与分类" vertex="1">
+          <mxGeometry height="38" width="150" x="1013.9012345679012" y="534.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-95" parent="1" style="rounded=1;arcSize=10;fillColor=#FFF6E3;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#25405F;align=center;" value="② 代码分析（核心）" vertex="1">
+          <mxGeometry height="38" width="150" x="1013.9012345679012" y="697.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-96" parent="1" style="rounded=1;arcSize=10;fillColor=#F0F8EB;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#25405F;align=center;" value="③ 核对知识库 / 配置" vertex="1">
+          <mxGeometry height="38" width="150" x="1013.9012345679012" y="958.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-97" parent="1" style="rounded=1;arcSize=10;fillColor=#FFF0F1;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#25405F;align=center;" value="④ 具体订单：按需取证" vertex="1">
+          <mxGeometry height="38" width="150" x="1013.9012345679012" y="1170.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-98" parent="1" style="rounded=1;arcSize=10;fillColor=#EDF4FE;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#25405F;align=center;" value="⑤ 输出结论" vertex="1">
+          <mxGeometry height="38" width="150" x="1013.9012345679012" y="1450.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-99" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="提出问题 / 订单信息">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1163.9012345679012" y="590.5679012345679" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="590.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-100" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="Agent 识别问题类型：一般规则 / 具体订单" vertex="1">
+          <mxGeometry height="45" width="300" x="1458.9012345679012" y="611.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-101" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="定位 core-api 实现">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="720.5679012345679" as="sourcePoint" />
+            <mxPoint x="1713.9012345679012" y="720.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-102" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="代码位置与关键逻辑">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1713.9012345679012" y="769.5679012345679" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="769.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-103" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF9ED;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="必要时继续追踪 door-gods&lt;br&gt;梳理触发 → 条件 → 分支 → 返回及例外" vertex="1">
+          <mxGeometry height="65" width="430" x="1758.9012345679012" y="795.5679012345679" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-104" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="核对调用方及上下游逻辑">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="895.5679012345679" as="sourcePoint" />
+            <mxPoint x="1713.9012345679012" y="895.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-105" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="返回代码分析依据">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1713.9012345679012" y="928.5679012345679" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="928.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-106" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="代码分析后核对业务口径">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="1005.5679012345679" as="sourcePoint" />
+            <mxPoint x="1998.9012345679012" y="1005.5679012345679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-107" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="适用范围 / 例外 / 文档差异">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1998.9012345679012" y="1049.567901234568" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="1049.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-108" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="仅代码依赖配置时查询">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="1107.567901234568" as="sourcePoint" />
+            <mxPoint x="2283.901234567901" y="1107.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-109" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="当前线上已发布配置">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2283.901234567901" y="1142.567901234568" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="1142.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-110" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF9EC;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="当前 Apollo 值不能直接证明历史订单配置" vertex="1">
+          <mxGeometry height="38" width="480" x="2023.9012345679012" y="1155.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-111" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FEF3F2;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="仅具体订单且具备真实订单 ID、完整日期时查询；一般规则问题跳过" vertex="1">
+          <mxGeometry height="55" width="410" x="1458.9012345679012" y="1215.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-112" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;" value="按订单 ID + 日期查询 Hive flow_stamp">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="1300.567901234568" as="sourcePoint" />
+            <mxPoint x="2573.901234567901" y="1300.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-113" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="执行节点、参数与返回日志">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2573.901234567901" y="1347.567901234568" as="sourcePoint" />
+            <mxPoint x="1428.9012345679012" y="1347.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-114" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF3F3;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="日志有关键缺口时，才按需补查 Trace；已有日志直接分析" vertex="1">
+          <mxGeometry height="42" width="630" x="1913.9012345679012" y="1375.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-115" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#454B55;strokeWidth=1.7;endArrow=block;endFill=1;fontSize=13;fontColor=#30363E;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=6 4;" value="答复：结果 / 原因 / 证据 / 建议">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1428.9012345679012" y="1490.567901234568" as="sourcePoint" />
+            <mxPoint x="1163.9012345679012" y="1490.567901234568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-116" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#EEF5FF;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="回答原则：代码证明机制，订单日志证明实际执行；证据不足的部分明确说明。" vertex="1">
+          <mxGeometry height="53" width="780" x="1463.9012345679012" y="1515.567901234568" as="geometry" />
+        </mxCell>
+        <mxCell id="g6UgVSeVKX2TdmH3gGqj-117" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F0F3F6;strokeColor=none;fontColor=#475467;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=8;" value="后续规划（尚未完成）：将典型工单总结沉淀到 Cooper；逐步从慢速 Hive 查询转向 ClickHouse 日志检索。" vertex="1">
+          <mxGeometry height="55" width="1280" x="1238.9012345679012" y="1620.567901234568" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
